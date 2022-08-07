@@ -2,3 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Authentication data store
+echti/auth/credentials.txt
