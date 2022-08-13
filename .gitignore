@@ -5,3 +5,6 @@ __pycache__/
 
 # Authentication data store
 echti/auth/credentials.txt
+
+# Database
+echti/db/main.db
