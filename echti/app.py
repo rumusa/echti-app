@@ -1,7 +1,7 @@
 from echti.auth.user import User
-from echti.model.db_helper import DBHelper
+from echti.db.helper import DBHelper
 
 def run():
-    print('DB Helper')
-    db_conn = DBHelper(r'echti/db/main.db')
-    print('DB Helper End')
+    db_conn = DBHelper()
+    db_conn.__del__()
+    

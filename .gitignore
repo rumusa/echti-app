@@ -8,3 +8,6 @@ echti/auth/credentials.txt
 
 # Database
 echti/db/main.db
+
+# Configuration
+echti/config.py
